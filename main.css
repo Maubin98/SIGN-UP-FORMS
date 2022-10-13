@@ -1,0 +1,75 @@
+body{
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 100vh;
+    width: 100vw;
+    margin:0;
+    border: 0;
+    padding: 0;
+}
+main{
+    display: flex;
+}
+.leftside{
+    background-image: url('photo1.jpg');
+    background-size: cover;
+    height: 100vh;
+    width: 40vw;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.logobar{
+    color:white;
+    width: 100%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgba(0, 0, 0, 0.474);
+    font-size: 100px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+#odinlogo{
+    width: 80px;
+    padding-right:10px;
+}
+.rightside{
+    background-color: rgb(255, 255, 255);
+    width: 60vw;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+
+}
+#forms{
+    max-width: 100%;
+    padding-top: 40px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    box-shadow: 0 5px 2px -2px gray;
+}
+
+.input{
+    padding-right: 40px;
+    padding-top: 10px;
+    padding-bottom:20px;
+    max-width: 300px;
+    width: 25vw;
+    display: flex;
+    flex-direction: column;
+    
+}
+#button{
+    margin-top:30px;
+    width: 200px;
+    height:50px;
+    border-color: black;
+    border-radius: 0.5rem;
+}
